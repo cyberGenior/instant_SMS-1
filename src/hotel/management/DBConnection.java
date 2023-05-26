@@ -12,7 +12,7 @@ public class DBConnection {
     private static final String CONN = "jdbc:mysql://localhost/payments?useTimezone=true&serverTimezone=UTC";
    
 
-   
+   //Am in now
     
     public static Connection getConnction() throws SQLException{
      return  DriverManager.getConnection(CONN,USERNAME,PASSWORD); 
