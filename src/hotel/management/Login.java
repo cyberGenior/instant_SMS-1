@@ -71,12 +71,12 @@ public class Login extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         txtUser_name1 = new javax.swing.JTextField();
         txtPassword = new javax.swing.JTextField();
+        jLabel27 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         lb_mini = new javax.swing.JLabel();
         lb_close = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        bg = new javax.swing.JLabel();
         Lb_BG = new javax.swing.JLabel();
         Sign_up = new javax.swing.JPanel();
         hide_frome = new javax.swing.JLabel();
@@ -85,7 +85,6 @@ public class Login extends javax.swing.JFrame {
         TxtPassword_SP = new javax.swing.JTextField();
         txtConfrim_Password_SP = new javax.swing.JPasswordField();
         txtEmail_Phone_SP = new javax.swing.JTextField();
-        lb_container = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -139,17 +138,16 @@ public class Login extends javax.swing.JFrame {
         Login_panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/lock.png"))); // NOI18N
-        Login_panel.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 350, 40, 50));
+        Login_panel.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 290, 40, 50));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_add_key_30px_1.png"))); // NOI18N
-        Login_panel.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 450, 40, 40));
+        Login_panel.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 390, 40, 40));
 
-        txtUser_name1.setBackground(new Color(225,225,225,10)
-        );
-        txtUser_name1.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        txtUser_name1.setForeground(new java.awt.Color(102, 102, 102));
+        txtUser_name1.setBackground(new java.awt.Color(49, 66, 93));
+        txtUser_name1.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtUser_name1.setForeground(new java.awt.Color(204, 204, 204));
         txtUser_name1.setBorder(null);
-        txtUser_name1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        txtUser_name1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         txtUser_name1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 txtUser_name1KeyPressed(evt);
@@ -158,10 +156,11 @@ public class Login extends javax.swing.JFrame {
                 txtUser_name1KeyTyped(evt);
             }
         });
-        Login_panel.add(txtUser_name1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 350, 320, 50));
+        Login_panel.add(txtUser_name1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 290, 310, 50));
 
-        txtPassword.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        txtPassword.setForeground(new java.awt.Color(102, 102, 102));
+        txtPassword.setBackground(new java.awt.Color(49, 66, 93));
+        txtPassword.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtPassword.setForeground(new java.awt.Color(204, 204, 204));
         txtPassword.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         txtPassword.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
@@ -171,35 +170,43 @@ public class Login extends javax.swing.JFrame {
                 txtPasswordKeyTyped(evt);
             }
         });
-        Login_panel.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 450, 320, 40));
+        Login_panel.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 380, 320, 50));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/InstantSMS.png"))); // NOI18N
+        Login_panel.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 370, 40));
+
+        jLabel3.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(204, 204, 204));
         jLabel3.setText("Login Here");
-        Login_panel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 280, 120, 40));
+        Login_panel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 200, 120, 40));
 
         lb_mini.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lb_mini.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_minus_19px.png"))); // NOI18N
+        lb_mini.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lb_mini.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lb_miniMouseClicked(evt);
             }
         });
-        Login_panel.add(lb_mini, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 250, 60, 40));
+        Login_panel.add(lb_mini, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 120, 30, 40));
 
         lb_close.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lb_close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_delete_18px_1.png"))); // NOI18N
+        lb_close.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lb_close.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lb_closeMouseClicked(evt);
             }
         });
-        Login_panel.add(lb_close, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 250, 60, 40));
+        Login_panel.add(lb_close, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 110, 30, 50));
 
+        jLabel1.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_password_40px.png"))); // NOI18N
-        jLabel1.setText(" sign up");
+        jLabel1.setText(" Sign Up");
         jLabel1.setToolTipText("sign up");
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -207,27 +214,24 @@ public class Login extends javax.swing.JFrame {
                 jLabel1MouseClicked(evt);
             }
         });
-        Login_panel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 350, 90, 40));
+        Login_panel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, 140, 40));
 
+        jLabel9.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(204, 204, 204));
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_question_mark_25px_1.png"))); // NOI18N
-        jLabel9.setText(" forgotten");
+        jLabel9.setText(" Forgotten");
         jLabel9.setToolTipText("forgotten password?");
+        jLabel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel9MouseClicked(evt);
             }
         });
-        Login_panel.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 450, 100, 40));
+        Login_panel.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 390, 130, 40));
 
-        bg.setForeground(new java.awt.Color(51, 51, 51));
-        bg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/login.gif"))); // NOI18N
-        Login_panel.add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, -1, 380));
-
-        Lb_BG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/Untitled-1.png"))); // NOI18N
+        Lb_BG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/Login-Back.png"))); // NOI18N
         Lb_BG.setText("jLabel24");
-        Login_panel.add(Lb_BG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1590, 760));
+        Login_panel.add(Lb_BG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1590, 720));
 
         getContentPane().add(Login_panel, "card8");
 
@@ -236,23 +240,27 @@ public class Login extends javax.swing.JFrame {
 
         hide_frome.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         hide_frome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_minus_19px.png"))); // NOI18N
+        hide_frome.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         hide_frome.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 hide_fromeMouseClicked(evt);
             }
         });
-        Sign_up.add(hide_frome, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 110, 30, 40));
+        Sign_up.add(hide_frome, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 160, 30, 40));
 
         close.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_delete_18px_1.png"))); // NOI18N
+        close.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         close.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 closeMouseClicked(evt);
             }
         });
-        Sign_up.add(close, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 170, 50, 40));
+        Sign_up.add(close, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 220, 50, 40));
 
-        txtUser_Name.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtUser_Name.setBackground(new java.awt.Color(49, 66, 93));
+        txtUser_Name.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtUser_Name.setForeground(new java.awt.Color(204, 204, 204));
         txtUser_Name.setBorder(null);
         txtUser_Name.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         txtUser_Name.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -265,9 +273,11 @@ public class Login extends javax.swing.JFrame {
                 txtUser_NameKeyPressed(evt);
             }
         });
-        Sign_up.add(txtUser_Name, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 110, 230, 40));
+        Sign_up.add(txtUser_Name, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, 180, 40));
 
-        TxtPassword_SP.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        TxtPassword_SP.setBackground(new java.awt.Color(49, 66, 93));
+        TxtPassword_SP.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        TxtPassword_SP.setForeground(new java.awt.Color(204, 204, 204));
         TxtPassword_SP.setBorder(javax.swing.BorderFactory.createEmptyBorder(10, 1, 1, 1));
         TxtPassword_SP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         TxtPassword_SP.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -280,9 +290,11 @@ public class Login extends javax.swing.JFrame {
                 TxtPassword_SPKeyPressed(evt);
             }
         });
-        Sign_up.add(TxtPassword_SP, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 170, 350, 40));
+        Sign_up.add(TxtPassword_SP, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 220, 280, 40));
 
-        txtConfrim_Password_SP.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtConfrim_Password_SP.setBackground(new java.awt.Color(49, 66, 93));
+        txtConfrim_Password_SP.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtConfrim_Password_SP.setForeground(new java.awt.Color(204, 204, 204));
         txtConfrim_Password_SP.setBorder(null);
         txtConfrim_Password_SP.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -294,9 +306,11 @@ public class Login extends javax.swing.JFrame {
                 txtConfrim_Password_SPKeyPressed(evt);
             }
         });
-        Sign_up.add(txtConfrim_Password_SP, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 230, 340, 40));
+        Sign_up.add(txtConfrim_Password_SP, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 280, 280, 40));
 
-        txtEmail_Phone_SP.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtEmail_Phone_SP.setBackground(new java.awt.Color(49, 66, 93));
+        txtEmail_Phone_SP.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtEmail_Phone_SP.setForeground(new java.awt.Color(204, 204, 204));
         txtEmail_Phone_SP.setBorder(null);
         txtEmail_Phone_SP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         txtEmail_Phone_SP.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -309,54 +323,48 @@ public class Login extends javax.swing.JFrame {
                 txtEmail_Phone_SPKeyPressed(evt);
             }
         });
-        Sign_up.add(txtEmail_Phone_SP, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 290, 350, 30));
-
-        lb_container.setBackground(new java.awt.Color(121, 119, 119));
-        lb_container.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Sign_up.add(txtEmail_Phone_SP, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 350, 270, 40));
 
         jLabel2.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
         jLabel2.setText("First name");
-        lb_container.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 200, 50));
+        Sign_up.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 410, 200, 50));
 
         jLabel4.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel4.setForeground(new java.awt.Color(153, 153, 153));
         jLabel4.setText("Last name");
-        lb_container.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, 120, 40));
+        Sign_up.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 470, 120, 40));
 
         jLabel5.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel5.setForeground(new java.awt.Color(153, 153, 153));
         jLabel5.setText("Hint for Password Reset");
-        lb_container.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 200, 40));
+        Sign_up.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 530, 200, 40));
 
         jLabel21.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel21.setForeground(new java.awt.Color(153, 153, 153));
         jLabel21.setText("New password");
-        lb_container.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 200, 40));
+        Sign_up.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, 200, 40));
 
         jLabel24.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel24.setForeground(new java.awt.Color(153, 153, 153));
         jLabel24.setText(" Phone number");
-        lb_container.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 200, 40));
+        Sign_up.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, 200, 40));
 
         jLabel25.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel25.setForeground(new java.awt.Color(153, 153, 153));
         jLabel25.setText("User name & User Mode");
-        lb_container.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 210, 40));
+        Sign_up.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, 210, 40));
 
         jLabel26.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel26.setForeground(new java.awt.Color(153, 153, 153));
         jLabel26.setText("Confirm password");
-        lb_container.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 200, 40));
-        lb_container.add(logo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 260, 80, 70));
+        Sign_up.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 200, 40));
+        Sign_up.add(logo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 80, 70));
+        Sign_up.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, 130, 110));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icon.png"))); // NOI18N
-        jLabel18.setText("jLabel18");
-        lb_container.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 240, 130, 110));
-
-        Sign_up.add(lb_container, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 240, 430));
-
-        txtFirst_name.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtFirst_name.setBackground(new java.awt.Color(49, 66, 93));
+        txtFirst_name.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtFirst_name.setForeground(new java.awt.Color(204, 204, 204));
         txtFirst_name.setBorder(null);
         txtFirst_name.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         txtFirst_name.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -369,9 +377,11 @@ public class Login extends javax.swing.JFrame {
                 txtFirst_nameKeyPressed(evt);
             }
         });
-        Sign_up.add(txtFirst_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, 320, 40));
+        Sign_up.add(txtFirst_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 410, 270, 40));
 
-        txtLast_name.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtLast_name.setBackground(new java.awt.Color(49, 66, 93));
+        txtLast_name.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtLast_name.setForeground(new java.awt.Color(204, 204, 204));
         txtLast_name.setBorder(javax.swing.BorderFactory.createEmptyBorder(10, 1, 1, 1));
         txtLast_name.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         txtLast_name.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -384,9 +394,11 @@ public class Login extends javax.swing.JFrame {
                 txtLast_nameKeyPressed(evt);
             }
         });
-        Sign_up.add(txtLast_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 410, 360, 40));
+        Sign_up.add(txtLast_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 470, 270, 40));
 
-        txtHint.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtHint.setBackground(new java.awt.Color(49, 66, 93));
+        txtHint.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        txtHint.setForeground(new java.awt.Color(204, 204, 204));
         txtHint.setBorder(null);
         txtHint.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         txtHint.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -399,26 +411,29 @@ public class Login extends javax.swing.JFrame {
                 txtHintKeyPressed(evt);
             }
         });
-        Sign_up.add(txtHint, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 480, 360, 30));
+        Sign_up.add(txtHint, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 540, 280, 30));
 
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_home_page_20px.png"))); // NOI18N
+        jLabel23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel23MouseClicked(evt);
             }
         });
-        Sign_up.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 480, 60, 40));
+        Sign_up.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 530, 60, 40));
 
-        lb_signup.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        lb_signup.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         lb_signup.setForeground(new java.awt.Color(204, 204, 204));
         lb_signup.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lb_signup.setText("Sign Up to Create a new Account !");
-        Sign_up.add(lb_signup, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, 250, 40));
+        Sign_up.add(lb_signup, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 110, 250, 40));
 
-        user.setBackground(new Color(255,255,255,5));
-        user.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Administration", "Teacher", "Accountant", "Reception" }));
-        Sign_up.add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 110, 120, 40));
+        user.setBackground(new java.awt.Color(49, 66, 93));
+        user.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        user.setForeground(new java.awt.Color(204, 204, 204));
+        user.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "User Mode", "Administration", "Teacher", "Accountant", "Reception" }));
+        Sign_up.add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 160, 120, 40));
 
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_add_image_25px.png"))); // NOI18N
@@ -427,11 +442,11 @@ public class Login extends javax.swing.JFrame {
                 jLabel12MouseClicked(evt);
             }
         });
-        Sign_up.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 350, 40, 40));
+        Sign_up.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 110, 40, 40));
 
         lb_GB_forSignUp2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lb_GB_forSignUp2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/register.png"))); // NOI18N
-        Sign_up.add(lb_GB_forSignUp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, 870, 540));
+        lb_GB_forSignUp2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/Login-Back-2.png"))); // NOI18N
+        Sign_up.add(lb_GB_forSignUp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 920, 710));
 
         img_url.setText("jTextField1");
         Sign_up.add(img_url, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 520, -1, -1));
@@ -444,45 +459,48 @@ public class Login extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(240, 240, 240));
         jLabel10.setText("Phone / Email");
-        Reset_password.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 290, 210, 30));
+        Reset_password.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 210, 50));
 
         jLabel11.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(240, 240, 240));
         jLabel11.setText("Hint");
-        Reset_password.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, 210, 40));
+        Reset_password.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 210, 210, 60));
 
         jLabel13.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(240, 240, 240));
         jLabel13.setText("Last name");
-        Reset_password.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 170, 210, 40));
+        Reset_password.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 160, 210, 50));
 
         jLabel14.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(240, 240, 240));
         jLabel14.setText("First name");
-        Reset_password.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 210, 40));
+        Reset_password.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, 210, 50));
 
-        Hint.setBackground(new Color(225,225,225,10));
-        Hint.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        Hint.setBackground(new java.awt.Color(49, 66, 93));
+        Hint.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        Hint.setForeground(new java.awt.Color(204, 204, 204));
         Hint.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 5, 10));
         Hint.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 HintKeyPressed(evt);
             }
         });
-        Reset_password.add(Hint, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 310, 40));
+        Reset_password.add(Hint, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 220, 310, 40));
 
-        Phone_email.setBackground(new Color(225,225,225,10));
-        Phone_email.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        Phone_email.setBackground(new java.awt.Color(49, 66, 93));
+        Phone_email.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        Phone_email.setForeground(new java.awt.Color(204, 204, 204));
         Phone_email.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 10));
         Phone_email.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 Phone_emailKeyPressed(evt);
             }
         });
-        Reset_password.add(Phone_email, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 290, 300, 40));
+        Reset_password.add(Phone_email, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 280, 300, 40));
 
-        Fname.setBackground(new Color(225,225,225,10));
-        Fname.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        Fname.setBackground(new java.awt.Color(49, 66, 93));
+        Fname.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        Fname.setForeground(new java.awt.Color(204, 204, 204));
         Fname.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 5, 10));
         Fname.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -494,20 +512,22 @@ public class Login extends javax.swing.JFrame {
                 FnameKeyPressed(evt);
             }
         });
-        Reset_password.add(Fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 110, 310, 40));
+        Reset_password.add(Fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 100, 310, 40));
 
-        Lname.setBackground(new Color(225,225,225,10));
-        Lname.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        Lname.setBackground(new java.awt.Color(49, 66, 93));
+        Lname.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        Lname.setForeground(new java.awt.Color(204, 204, 204));
         Lname.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 1, 1, 10));
         Lname.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 LnameKeyPressed(evt);
             }
         });
-        Reset_password.add(Lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, 310, 40));
+        Reset_password.add(Lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, 310, 40));
 
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_minus_19px.png"))); // NOI18N
+        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel8MouseClicked(evt);
@@ -517,6 +537,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_delete_18px_1.png"))); // NOI18N
+        jLabel15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel15MouseClicked(evt);
@@ -526,15 +547,16 @@ public class Login extends javax.swing.JFrame {
 
         jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_home_page_20px.png"))); // NOI18N
+        jLabel22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel22MouseClicked(evt);
             }
         });
-        Reset_password.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 70, 50));
+        Reset_password.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 310, 50, 50));
 
         lb_BG.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lb_BG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/sign_up.png"))); // NOI18N
+        lb_BG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/Login-Back-3.png"))); // NOI18N
         Reset_password.add(lb_BG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 890, 420));
 
         getContentPane().add(Reset_password, "card4");
@@ -545,7 +567,7 @@ public class Login extends javax.swing.JFrame {
         lb_confirm_password.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         lb_confirm_password.setForeground(new java.awt.Color(153, 153, 153));
         lb_confirm_password.setText("                           Confirm New Password");
-        new_pass.add(lb_confirm_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, 320, 40));
+        new_pass.add(lb_confirm_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 240, 340, 40));
 
         lb_new_pass.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         lb_new_pass.setForeground(new java.awt.Color(153, 153, 153));
@@ -555,14 +577,14 @@ public class Login extends javax.swing.JFrame {
                 lb_new_passMouseExited(evt);
             }
         });
-        new_pass.add(lb_new_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, 340, 40));
+        new_pass.add(lb_new_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 240, 340, 40));
 
         lb_new_user_name.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         lb_new_user_name.setForeground(new java.awt.Color(153, 153, 153));
         lb_new_user_name.setText("New User Name");
-        new_pass.add(lb_new_user_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 160, 190, 50));
+        new_pass.add(lb_new_user_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 130, 190, 60));
 
-        user_name.setBackground(new Color(225,225,225,10));
+        user_name.setBackground(new java.awt.Color(49, 66, 93));
         user_name.setBorder(null);
         user_name.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -577,9 +599,9 @@ public class Login extends javax.swing.JFrame {
                 user_nameKeyPressed(evt);
             }
         });
-        new_pass.add(user_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 320, 40));
+        new_pass.add(user_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 320, 40));
 
-        new_password.setBackground(new Color(225,225,225,10));
+        new_password.setBackground(new java.awt.Color(49, 66, 93));
         new_password.setBorder(null);
         new_password.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -594,9 +616,9 @@ public class Login extends javax.swing.JFrame {
                 new_passwordKeyPressed(evt);
             }
         });
-        new_pass.add(new_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, 310, 40));
+        new_pass.add(new_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 240, 150, 40));
 
-        confirm_pass.setBackground(new Color(225,225,225,10));
+        confirm_pass.setBackground(new java.awt.Color(49, 66, 93));
         confirm_pass.setBorder(null);
         confirm_pass.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -611,7 +633,7 @@ public class Login extends javax.swing.JFrame {
                 confirm_passKeyPressed(evt);
             }
         });
-        new_pass.add(confirm_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, 310, 40));
+        new_pass.add(confirm_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, 200, 40));
 
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_delete_18px_1.png"))); // NOI18N
@@ -631,7 +653,7 @@ public class Login extends javax.swing.JFrame {
         });
         new_pass.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 60, 60, 40));
 
-        jLabel17.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(240, 240, 240));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_user_25px.png"))); // NOI18N
@@ -641,9 +663,9 @@ public class Login extends javax.swing.JFrame {
                 jLabel17MouseClicked(evt);
             }
         });
-        new_pass.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 160, 170, 50));
+        new_pass.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 140, 170, 50));
 
-        jLabel20.setFont(new java.awt.Font("Trebuchet MS", 0, 11)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(240, 240, 240));
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_login_25px.png"))); // NOI18N
@@ -653,10 +675,10 @@ public class Login extends javax.swing.JFrame {
                 jLabel20MouseClicked(evt);
             }
         });
-        new_pass.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 250, 90, 50));
+        new_pass.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 230, 120, 50));
 
         lb_MyBackground.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lb_MyBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/login.gif"))); // NOI18N
+        lb_MyBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/Login-Back-4.png"))); // NOI18N
         new_pass.add(lb_MyBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 420));
 
         getContentPane().add(new_pass, "card5");
@@ -664,24 +686,6 @@ public class Login extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void lb_closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lb_closeMouseClicked
-        // close frmae
-        System.exit(0);
-    }//GEN-LAST:event_lb_closeMouseClicked
-
-    private void lb_miniMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lb_miniMouseClicked
-// minimize
-        this.setExtendedState(Login.ICONIFIED);
-
-    }//GEN-LAST:event_lb_miniMouseClicked
-
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        // swatch to sign up panel
-        Sign_up.setVisible(true);
-        Login_panel.hide();
-        Reset_password.hide();
-    }//GEN-LAST:event_jLabel1MouseClicked
 
     private void closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeMouseClicked
         // close frmae
@@ -920,82 +924,6 @@ public class Login extends javax.swing.JFrame {
         txtEmail_Phone_SP.setText(null);
     }//GEN-LAST:event_txtEmail_Phone_SPMouseClicked
 
-    private void txtUser_name1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtUser_name1KeyPressed
-        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
-            txtPassword.requestFocus();
-        }
-    }//GEN-LAST:event_txtUser_name1KeyPressed
-
-    private void txtPasswordKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPasswordKeyPressed
-        // Login
-        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
-
-            try {
-
-                if (txtUser_name1.getText().isEmpty() || txtPassword.getText().isEmpty()) {
-                    JOptionPane.showMessageDialog(this, "User name or Password is Empty");
-
-                } else {
-
-                    String UserName = txtUser_name1.getText();
-                    String passwords = txtPassword.getText();
-                    String encryptedPassward = getEncodedString(passwords);
-
-                    
-                    
-                    
-                    conn = DBConnection.getConnction();
-                    pps = conn.prepareStatement("SELECT * FROM access WHERE name = ? and confirmed_password =?");
-                    pps.setString(1, UserName);
-                    pps.setString(2, encryptedPassward);
-                    rs = pps.executeQuery();
-                    if (rs.next()) {
-                        //-----------------------------------------------------frame control
-                         username = rs.getString("name");
-                         usertype = rs.getString("user");
-                         password = rs.getString("confirmed_password");
-
-                        //resources for passing the info to another class
-                          User_Access_id = rs.getString("access_id");
-
-                          frame_control();
-                      } else {//result try block
-                        JOptionPane.showMessageDialog(this, "Wrong user Name or Password");
-                        txtUser_name1.setText(null);
-                        txtPassword.setText(null);
-                    }
-
-                }
-            } catch (Exception e) {
-                System.err.println(e);
-            } finally {    //*****************************************************CLOSING THE CONECTIONS
-                if (rs != null) {
-                    try {
-                        rs.close();
-                    } catch (SQLException ex) {
-                        Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                }
-                if (pps != null) {
-                    try {
-                        pps.close();
-                    } catch (SQLException ex) {
-                        Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                }
-                if (conn != null) {
-                    try {
-                        conn.close();
-                    } catch (SQLException ex) {
-                        Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                }
-
-            }//try and catch
-        }//key entered close breakets
-
-    }//GEN-LAST:event_txtPasswordKeyPressed
-
     
     
       //ENCODING THE PASSWORD
@@ -1097,12 +1025,6 @@ public class Login extends javax.swing.JFrame {
             txtLast_name.requestFocus();
         }
     }//GEN-LAST:event_txtFirst_nameKeyPressed
-
-    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
-        Sign_up.hide();
-        Login_panel.hide();
-        Reset_password.setVisible(true);
-    }//GEN-LAST:event_jLabel9MouseClicked
 
     private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
         System.exit(0);
@@ -1385,15 +1307,6 @@ public class Login extends javax.swing.JFrame {
       lb_confirm_password.hide();
     }//GEN-LAST:event_confirm_passMouseEntered
 
-    private void txtUser_name1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtUser_name1KeyTyped
-       
-     
-    }//GEN-LAST:event_txtUser_name1KeyTyped
-
-    private void txtPasswordKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPasswordKeyTyped
-      
-    }//GEN-LAST:event_txtPasswordKeyTyped
-
     private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
      
         JFileChooser chooser = new JFileChooser();
@@ -1418,6 +1331,109 @@ public class Login extends javax.swing.JFrame {
         }
       
     }//GEN-LAST:event_jLabel12MouseClicked
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+        Sign_up.hide();
+        Login_panel.hide();
+        Reset_password.setVisible(true);
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        // swatch to sign up panel
+        Sign_up.setVisible(true);
+        Login_panel.hide();
+        Reset_password.hide();
+    }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void lb_closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lb_closeMouseClicked
+        // close frmae
+        System.exit(0);
+    }//GEN-LAST:event_lb_closeMouseClicked
+
+    private void lb_miniMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lb_miniMouseClicked
+        // minimize
+        this.setExtendedState(Login.ICONIFIED);
+    }//GEN-LAST:event_lb_miniMouseClicked
+
+    private void txtPasswordKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPasswordKeyTyped
+
+    }//GEN-LAST:event_txtPasswordKeyTyped
+
+    private void txtPasswordKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPasswordKeyPressed
+        // Login
+        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
+
+            try {
+
+                if (txtUser_name1.getText().isEmpty() || txtPassword.getText().isEmpty()) {
+                    JOptionPane.showMessageDialog(this, "User name or Password is Empty");
+
+                } else {
+
+                    String UserName = txtUser_name1.getText();
+                    String passwords = txtPassword.getText();
+                    String encryptedPassward = getEncodedString(passwords);
+
+                    conn = DBConnection.getConnction();
+                    pps = conn.prepareStatement("SELECT * FROM access WHERE name = ? and confirmed_password =?");
+                    pps.setString(1, UserName);
+                    pps.setString(2, encryptedPassward);
+                    rs = pps.executeQuery();
+                    if (rs.next()) {
+                        //-----------------------------------------------------frame control
+                        username = rs.getString("name");
+                        usertype = rs.getString("user");
+                        password = rs.getString("confirmed_password");
+
+                        //resources for passing the info to another class
+                        User_Access_id = rs.getString("access_id");
+
+                        frame_control();
+                    } else {//result try block
+                        JOptionPane.showMessageDialog(this, "Wrong user Name or Password");
+                        txtUser_name1.setText(null);
+                        txtPassword.setText(null);
+                    }
+
+                }
+            } catch (Exception e) {
+                System.err.println(e);
+            } finally {    //*****************************************************CLOSING THE CONECTIONS
+                if (rs != null) {
+                    try {
+                        rs.close();
+                    } catch (SQLException ex) {
+                        Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
+                if (pps != null) {
+                    try {
+                        pps.close();
+                    } catch (SQLException ex) {
+                        Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
+                if (conn != null) {
+                    try {
+                        conn.close();
+                    } catch (SQLException ex) {
+                        Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
+
+            }//try and catch
+        }//key entered close breakets
+    }//GEN-LAST:event_txtPasswordKeyPressed
+
+    private void txtUser_name1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtUser_name1KeyTyped
+
+    }//GEN-LAST:event_txtUser_name1KeyTyped
+
+    private void txtUser_name1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtUser_name1KeyPressed
+        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
+            txtPassword.requestFocus();
+        }
+    }//GEN-LAST:event_txtUser_name1KeyPressed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -1461,7 +1477,6 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPanel Reset_password;
     private javax.swing.JPanel Sign_up;
     private javax.swing.JTextField TxtPassword_SP;
-    private javax.swing.JLabel bg;
     private javax.swing.JLabel close;
     private javax.swing.JPasswordField confirm_pass;
     private javax.swing.JLabel hide_frome;
@@ -1485,6 +1500,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -1497,7 +1513,6 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel lb_MyBackground;
     private javax.swing.JLabel lb_close;
     private javax.swing.JLabel lb_confirm_password;
-    private javax.swing.JPanel lb_container;
     private javax.swing.JLabel lb_mini;
     private javax.swing.JLabel lb_new_pass;
     private javax.swing.JLabel lb_new_user_name;

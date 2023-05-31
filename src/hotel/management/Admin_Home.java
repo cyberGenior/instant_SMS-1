@@ -1,6 +1,6 @@
 package hotel.management;
 
-import com.sun.corba.se.impl.presentation.rmi.ExceptionHandler;
+//import com.sun.corba.se.impl.presentation.rmi.ExceptionHandler;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -308,13 +308,48 @@ public class Admin_Home extends javax.swing.JFrame {
         Main_container = new javax.swing.JPanel();
         minize_lb = new javax.swing.JLabel();
         exit_lb = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
         user_mode = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         left = new javax.swing.JPanel();
         Side_Panel = new javax.swing.JPanel();
-        btnShow = new javax.swing.JPanel();
-        dash = new javax.swing.JLabel();
         Button_holder = new javax.swing.JPanel();
+        front_holder = new javax.swing.JPanel();
+        Structure = new javax.swing.JPanel();
+        access = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        admin_btn = new javax.swing.JPanel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel91 = new javax.swing.JLabel();
+        access7 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        expenses = new javax.swing.JPanel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        access6 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        Adminstrative = new javax.swing.JPanel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        access4 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        HR = new javax.swing.JPanel();
+        jLabel73 = new javax.swing.JLabel();
+        jPanel31 = new javax.swing.JPanel();
+        jLabel74 = new javax.swing.JLabel();
+        jPanel32 = new javax.swing.JPanel();
+        jLabel75 = new javax.swing.JLabel();
+        jPanel33 = new javax.swing.JPanel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        access3 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        expenses1 = new javax.swing.JPanel();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        access5 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
         cover = new javax.swing.JPanel();
         send_noitice1 = new javax.swing.JPanel();
         jLabel70 = new javax.swing.JLabel();
@@ -354,62 +389,13 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel82 = new javax.swing.JLabel();
         jLabel83 = new javax.swing.JLabel();
         jLabel84 = new javax.swing.JLabel();
-        front_holder = new javax.swing.JPanel();
-        Structure = new javax.swing.JPanel();
-        access = new javax.swing.JLabel();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        admin_btn = new javax.swing.JPanel();
-        jLabel42 = new javax.swing.JLabel();
-        jLabel91 = new javax.swing.JLabel();
-        access7 = new javax.swing.JLabel();
-        jLabel67 = new javax.swing.JLabel();
-        expenses = new javax.swing.JPanel();
-        jLabel92 = new javax.swing.JLabel();
-        jLabel46 = new javax.swing.JLabel();
-        access6 = new javax.swing.JLabel();
-        jLabel66 = new javax.swing.JLabel();
-        Adminstrative = new javax.swing.JPanel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel93 = new javax.swing.JLabel();
-        access4 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        HR = new javax.swing.JPanel();
-        jLabel73 = new javax.swing.JLabel();
-        jPanel31 = new javax.swing.JPanel();
-        jLabel74 = new javax.swing.JLabel();
-        jPanel32 = new javax.swing.JPanel();
-        jLabel75 = new javax.swing.JLabel();
-        jPanel33 = new javax.swing.JPanel();
-        jLabel76 = new javax.swing.JLabel();
-        jLabel89 = new javax.swing.JLabel();
-        access3 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        expenses1 = new javax.swing.JPanel();
-        jLabel94 = new javax.swing.JLabel();
-        jLabel47 = new javax.swing.JLabel();
-        access5 = new javax.swing.JLabel();
-        jLabel65 = new javax.swing.JLabel();
         jPanel28 = new javax.swing.JPanel();
-        lb_user = new javax.swing.JLabel();
-        img_usera = new javax.swing.JPanel();
         jLabel38 = new javax.swing.JLabel();
         user_img = new javax.swing.JLabel();
+        img_usera = new javax.swing.JPanel();
+        lb_user = new javax.swing.JLabel();
         Class_config_holder = new javax.swing.JPanel();
         home_page = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         home_cover = new javax.swing.JPanel();
         pay = new javax.swing.JLabel();
@@ -435,6 +421,8 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel57 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         backgroud_img = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        btnShow = new javax.swing.JPanel();
         profile = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
@@ -451,6 +439,19 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
+        dash = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
         structureDesign = new javax.swing.JPanel();
         jLabel115 = new javax.swing.JLabel();
         Count_title16 = new javax.swing.JLabel();
@@ -666,7 +667,7 @@ public class Admin_Home extends javax.swing.JFrame {
                 minize_lbMouseClicked(evt);
             }
         });
-        Main_container.add(minize_lb, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 0, 60, 60));
+        Main_container.add(minize_lb, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 0, 60, 80));
 
         exit_lb.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         exit_lb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_delete_18px_1.png"))); // NOI18N
@@ -675,422 +676,41 @@ public class Admin_Home extends javax.swing.JFrame {
                 exit_lbMouseClicked(evt);
             }
         });
-        Main_container.add(exit_lb, new org.netbeans.lib.awtextra.AbsoluteConstraints(1300, 0, 50, 60));
+        Main_container.add(exit_lb, new org.netbeans.lib.awtextra.AbsoluteConstraints(1300, 0, 50, 70));
+
+        jPanel5.setBackground(new java.awt.Color(0, 57, 126));
 
         user_mode.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         user_mode.setForeground(new java.awt.Color(172, 170, 170));
-        Main_container.add(user_mode, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 10, 100, 40));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/header.png"))); // NOI18N
-        jLabel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
-                jLabel1MouseDragged(evt);
-            }
-        });
-        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jLabel1MousePressed(evt);
-            }
-        });
-        Main_container.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 1370, 80));
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(982, Short.MAX_VALUE)
+                .addComponent(user_mode, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(226, 226, 226))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
+                .addComponent(user_mode, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        Main_container.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 60));
 
         left.setBackground(new java.awt.Color(153, 153, 153));
-        Main_container.add(left, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 0, 30, 790));
+        Main_container.add(left, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 0, 10, 790));
 
-        Side_Panel.setBackground(new java.awt.Color(66, 66, 66));
+        Side_Panel.setBackground(new java.awt.Color(0, 57, 126));
         Side_Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        btnShow.setBackground(new java.awt.Color(102, 102, 102));
-        btnShow.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnShowMouseClicked(evt);
-            }
-        });
-        btnShow.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        dash.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        dash.setForeground(new java.awt.Color(255, 255, 255));
-        dash.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        dash.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_circled_menu_40px.png"))); // NOI18N
-        dash.setText("        Dashboard");
-        btnShow.add(dash, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
-
-        Side_Panel.add(btnShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 210, 60));
 
         Button_holder.setLayout(new java.awt.CardLayout());
 
-        cover.setBackground(new java.awt.Color(121, 119, 119));
-        cover.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        send_noitice1.setBackground(new java.awt.Color(121, 119, 119));
-        send_noitice1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                send_noitice1MouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                send_noitice1MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                send_noitice1MouseExited(evt);
-            }
-        });
-        send_noitice1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel70.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel70.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
-        send_noitice1.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, -1));
-
-        jLabel96.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
-        send_noitice1.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 30));
-
-        access9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
-        send_noitice1.add(access9, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 30));
-
-        jLabel71.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel71.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel71.setText("   Send Notice");
-        send_noitice1.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 110, 30));
-
-        cover.add(send_noitice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 190, 210, 50));
-
-        admin_btn1.setBackground(new java.awt.Color(121, 119, 119));
-        admin_btn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        admin_btn1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                admin_btn1MouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                admin_btn1MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                admin_btn1MouseExited(evt);
-            }
-        });
-        admin_btn1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel72.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel72.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel72.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_administrative_tools_30px_1.png"))); // NOI18N
-        admin_btn1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 40, 40));
-
-        jLabel97.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
-        admin_btn1.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 0, 30, 40));
-
-        access10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
-        admin_btn1.add(access10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 10, 30, 20));
-
-        jLabel77.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel77.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel77.setText("Complaints View");
-        admin_btn1.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 100, 40));
-
-        cover.add(admin_btn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 210, 50));
-
-        send_noitice.setBackground(new java.awt.Color(121, 119, 119));
-        send_noitice.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                send_noiticeMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                send_noiticeMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                send_noiticeMouseExited(evt);
-            }
-        });
-        send_noitice.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel68.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel68.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel68.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
-        send_noitice.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, 30));
-
-        jLabel95.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
-        send_noitice.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 30));
-
-        access8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
-        send_noitice.add(access8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 30));
-
-        jLabel69.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel69.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel69.setText("   Approve lessons ");
-        send_noitice.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 110, 30));
-
-        cover.add(send_noitice, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 210, 50));
-
-        send_noitice2.setBackground(new java.awt.Color(121, 119, 119));
-        send_noitice2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                send_noitice2MouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                send_noitice2MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                send_noitice2MouseExited(evt);
-            }
-        });
-        send_noitice2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel78.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel78.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel78.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
-        send_noitice2.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, 30));
-
-        jLabel98.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
-        send_noitice2.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 30));
-
-        access11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
-        send_noitice2.add(access11, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 30));
-
-        jLabel85.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel85.setText("   Approve Expense ");
-        send_noitice2.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 140, 30));
-
-        cover.add(send_noitice2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 210, 50));
-
-        Button_holder.add(cover, "card6");
-
-        Structure_btnLay2.setBackground(new java.awt.Color(121, 119, 119));
-        Structure_btnLay2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        btn_rooms.setBackground(new java.awt.Color(121, 119, 119));
-        btn_rooms.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btn_roomsMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn_roomsMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btn_roomsMouseExited(evt);
-            }
-        });
-
-        rooms.setFont(new java.awt.Font("Trebuchet MS", 0, 13)); // NOI18N
-        rooms.setForeground(new java.awt.Color(255, 255, 255));
-        rooms.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        rooms.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_weight_care_30px.png"))); // NOI18N
-        rooms.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-        jLabel61.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel61.setText("GENERATE ROOMS");
-
-        javax.swing.GroupLayout btn_roomsLayout = new javax.swing.GroupLayout(btn_rooms);
-        btn_rooms.setLayout(btn_roomsLayout);
-        btn_roomsLayout.setHorizontalGroup(
-            btn_roomsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_roomsLayout.createSequentialGroup()
-                .addGap(38, 38, 38)
-                .addGroup(btn_roomsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(rooms, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
-        btn_roomsLayout.setVerticalGroup(
-            btn_roomsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_roomsLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(rooms, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47))
-        );
-
-        Structure_btnLay2.add(btn_rooms, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 210, 90));
-
-        btn_hall.setBackground(new java.awt.Color(121, 119, 119));
-        btn_hall.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btn_hallMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn_hallMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btn_hallMouseExited(evt);
-            }
-        });
-
-        jLabel29.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel29.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_double_right_35px_1.png"))); // NOI18N
-        jLabel29.setText("GENERATE CLASSES  ");
-        jLabel29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel29.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jLabel29.setName("next"); // NOI18N
-
-        javax.swing.GroupLayout btn_hallLayout = new javax.swing.GroupLayout(btn_hall);
-        btn_hall.setLayout(btn_hallLayout);
-        btn_hallLayout.setHorizontalGroup(
-            btn_hallLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_hallLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(30, Short.MAX_VALUE))
-        );
-        btn_hallLayout.setVerticalGroup(
-            btn_hallLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btn_hallLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
-        );
-
-        Structure_btnLay2.add(btn_hall, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 210, 80));
-
-        btn_structuretype.setBackground(new java.awt.Color(121, 119, 119));
-        btn_structuretype.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btn_structuretypeMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn_structuretypeMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btn_structuretypeMouseExited(evt);
-            }
-        });
-
-        floors.setFont(new java.awt.Font("Trebuchet MS", 0, 13)); // NOI18N
-        floors.setForeground(new java.awt.Color(255, 255, 255));
-        floors.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        floors.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_octahedron_30px.png"))); // NOI18N
-        floors.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-        jLabel60.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel60.setText("GENERATE STRUCTURES ");
-
-        javax.swing.GroupLayout btn_structuretypeLayout = new javax.swing.GroupLayout(btn_structuretype);
-        btn_structuretype.setLayout(btn_structuretypeLayout);
-        btn_structuretypeLayout.setHorizontalGroup(
-            btn_structuretypeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_structuretypeLayout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(floors, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(52, Short.MAX_VALUE))
-            .addGroup(btn_structuretypeLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        btn_structuretypeLayout.setVerticalGroup(
-            btn_structuretypeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_structuretypeLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(floors, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel60, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30))
-        );
-
-        Structure_btnLay2.add(btn_structuretype, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 210, 80));
-
-        btn_hall1.setBackground(new java.awt.Color(121, 119, 119));
-        btn_hall1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btn_hall1MouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn_hall1MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btn_hall1MouseExited(evt);
-            }
-        });
-
-        halls1.setFont(new java.awt.Font("Trebuchet MS", 0, 13)); // NOI18N
-        halls1.setForeground(new java.awt.Color(255, 255, 255));
-        halls1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        halls1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_verified_account_30px.png"))); // NOI18N
-        halls1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-        jLabel64.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
-        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel64.setText("GENERATE HALL");
-
-        javax.swing.GroupLayout btn_hall1Layout = new javax.swing.GroupLayout(btn_hall1);
-        btn_hall1.setLayout(btn_hall1Layout);
-        btn_hall1Layout.setHorizontalGroup(
-            btn_hall1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_hall1Layout.createSequentialGroup()
-                .addGroup(btn_hall1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(btn_hall1Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(halls1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(btn_hall1Layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(38, Short.MAX_VALUE))
-        );
-        btn_hall1Layout.setVerticalGroup(
-            btn_hall1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(btn_hall1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(halls1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(16, Short.MAX_VALUE))
-        );
-
-        Structure_btnLay2.add(btn_hall1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 210, -1));
-
-        Button_holder.add(Structure_btnLay2, "card3");
-
-        reports.setBackground(new java.awt.Color(121, 119, 119));
-        reports.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel80.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        jLabel80.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
-        jLabel80.setText("  Expenses");
-        jLabel80.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        reports.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 160, 50));
-
-        jLabel81.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        jLabel81.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
-        jLabel81.setText("  Occupancy");
-        jLabel81.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        reports.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 160, 50));
-
-        jLabel82.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        jLabel82.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
-        jLabel82.setText("  Guests");
-        jLabel82.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        reports.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 160, 50));
-
-        jLabel83.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        jLabel83.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
-        jLabel83.setText("  Financial");
-        jLabel83.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        reports.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 160, 50));
-
-        jLabel84.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        jLabel84.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
-        jLabel84.setText("  Coupon");
-        jLabel84.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        reports.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 160, 50));
-
-        Button_holder.add(reports, "card5");
-
-        front_holder.setBackground(new java.awt.Color(121, 119, 119));
+        front_holder.setBackground(new java.awt.Color(0, 57, 126));
         front_holder.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         front_holder.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -1102,7 +722,7 @@ public class Admin_Home extends javax.swing.JFrame {
         });
         front_holder.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Structure.setBackground(new java.awt.Color(121, 119, 119));
+        Structure.setBackground(new java.awt.Color(75, 89, 149));
         Structure.setToolTipText("Generate a vitual structure");
         Structure.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -1137,7 +757,7 @@ public class Admin_Home extends javax.swing.JFrame {
 
         front_holder.add(Structure, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 210, 50));
 
-        admin_btn.setBackground(new java.awt.Color(121, 119, 119));
+        admin_btn.setBackground(new java.awt.Color(75, 89, 149));
         admin_btn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         admin_btn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -1170,9 +790,9 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel67.setText(" System  Settings");
         admin_btn.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, -1, 40));
 
-        front_holder.add(admin_btn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 380, 210, 50));
+        front_holder.add(admin_btn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, 210, 50));
 
-        expenses.setBackground(new java.awt.Color(121, 119, 119));
+        expenses.setBackground(new java.awt.Color(75, 89, 149));
         expenses.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         expenses.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -1205,9 +825,9 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel66.setText("  Inventory Manager");
         expenses.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 130, 40));
 
-        front_holder.add(expenses, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 310, 210, 50));
+        front_holder.add(expenses, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 210, 50));
 
-        Adminstrative.setBackground(new java.awt.Color(121, 119, 119));
+        Adminstrative.setBackground(new java.awt.Color(75, 89, 149));
         Adminstrative.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 AdminstrativeMouseClicked(evt);
@@ -1225,23 +845,23 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
-        Adminstrative.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, 40));
+        Adminstrative.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 50, 40));
 
         jLabel93.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel93.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
-        Adminstrative.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 40));
+        Adminstrative.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 0, 30, 40));
 
         access4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
-        Adminstrative.add(access4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 40));
+        Adminstrative.add(access4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 0, 20, 40));
 
         jLabel63.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
         jLabel63.setForeground(new java.awt.Color(255, 255, 255));
         jLabel63.setText("   Adminstrative");
-        Adminstrative.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 110, 40));
+        Adminstrative.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 110, 40));
 
-        front_holder.add(Adminstrative, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 210, 70));
+        front_holder.add(Adminstrative, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 210, 50));
 
-        HR.setBackground(new java.awt.Color(121, 119, 119));
+        HR.setBackground(new java.awt.Color(75, 89, 149));
         HR.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 HRMouseClicked(evt);
@@ -1294,9 +914,9 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel23.setText("    HR Management");
         HR.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 110, 40));
 
-        front_holder.add(HR, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 210, 50));
+        front_holder.add(HR, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 210, 50));
 
-        expenses1.setBackground(new java.awt.Color(121, 119, 119));
+        expenses1.setBackground(new java.awt.Color(75, 89, 149));
         expenses1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         expenses1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -1329,13 +949,383 @@ public class Admin_Home extends javax.swing.JFrame {
         jLabel65.setText("Generator  ID");
         expenses1.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 90, 40));
 
-        front_holder.add(expenses1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 230, 210, 50));
+        front_holder.add(expenses1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 210, 50));
 
         Button_holder.add(front_holder, "card2");
 
-        Side_Panel.add(Button_holder, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 210, 630));
+        cover.setBackground(new java.awt.Color(0, 57, 126));
+        cover.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel28.setBackground(new java.awt.Color(121, 119, 119));
+        send_noitice1.setBackground(new java.awt.Color(75, 89, 149));
+        send_noitice1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                send_noitice1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                send_noitice1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                send_noitice1MouseExited(evt);
+            }
+        });
+        send_noitice1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel70.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel70.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
+        send_noitice1.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, -1));
+
+        jLabel96.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
+        send_noitice1.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 30));
+
+        access9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
+        send_noitice1.add(access9, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 30));
+
+        jLabel71.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel71.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel71.setText("   Send Notice");
+        send_noitice1.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 110, 30));
+
+        cover.add(send_noitice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 210, 50));
+
+        admin_btn1.setBackground(new java.awt.Color(75, 89, 149));
+        admin_btn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        admin_btn1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                admin_btn1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                admin_btn1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                admin_btn1MouseExited(evt);
+            }
+        });
+        admin_btn1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel72.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel72.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel72.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_administrative_tools_30px_1.png"))); // NOI18N
+        admin_btn1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 40, 40));
+
+        jLabel97.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
+        admin_btn1.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 0, 30, 40));
+
+        access10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
+        admin_btn1.add(access10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 10, 30, 20));
+
+        jLabel77.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel77.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel77.setText("   Complaints View");
+        admin_btn1.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 100, 40));
+
+        cover.add(admin_btn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 210, 50));
+
+        send_noitice.setBackground(new java.awt.Color(75, 89, 149));
+        send_noitice.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                send_noiticeMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                send_noiticeMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                send_noiticeMouseExited(evt);
+            }
+        });
+        send_noitice.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel68.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel68.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel68.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
+        send_noitice.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, 30));
+
+        jLabel95.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
+        send_noitice.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 30));
+
+        access8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
+        send_noitice.add(access8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 30));
+
+        jLabel69.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel69.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel69.setText("   Approve lessons ");
+        send_noitice.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 110, 30));
+
+        cover.add(send_noitice, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 210, 50));
+
+        send_noitice2.setBackground(new java.awt.Color(75, 89, 149));
+        send_noitice2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                send_noitice2MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                send_noitice2MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                send_noitice2MouseExited(evt);
+            }
+        });
+        send_noitice2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel78.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel78.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel78.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_upload_to_ftp_30px.png"))); // NOI18N
+        send_noitice2.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 50, 30));
+
+        jLabel98.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_back_15px.png"))); // NOI18N
+        send_noitice2.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 30, 30));
+
+        access11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unlock_19px.png"))); // NOI18N
+        send_noitice2.add(access11, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 20, 30));
+
+        jLabel85.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel85.setText("   Approve Expense ");
+        send_noitice2.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 140, 30));
+
+        cover.add(send_noitice2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 210, 50));
+
+        Button_holder.add(cover, "card6");
+
+        Structure_btnLay2.setBackground(new java.awt.Color(0, 57, 126));
+        Structure_btnLay2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btn_rooms.setBackground(new java.awt.Color(75, 89, 149));
+        btn_rooms.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_roomsMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn_roomsMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btn_roomsMouseExited(evt);
+            }
+        });
+
+        rooms.setFont(new java.awt.Font("Trebuchet MS", 0, 13)); // NOI18N
+        rooms.setForeground(new java.awt.Color(255, 255, 255));
+        rooms.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rooms.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_weight_care_30px.png"))); // NOI18N
+        rooms.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel61.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel61.setText("GENERATE ROOMS");
+
+        javax.swing.GroupLayout btn_roomsLayout = new javax.swing.GroupLayout(btn_rooms);
+        btn_rooms.setLayout(btn_roomsLayout);
+        btn_roomsLayout.setHorizontalGroup(
+            btn_roomsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_roomsLayout.createSequentialGroup()
+                .addGap(38, 38, 38)
+                .addGroup(btn_roomsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(rooms, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+        btn_roomsLayout.setVerticalGroup(
+            btn_roomsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_roomsLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(rooms, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(47, 47, 47))
+        );
+
+        Structure_btnLay2.add(btn_rooms, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 210, 100));
+
+        btn_hall.setBackground(new java.awt.Color(75, 89, 149));
+        btn_hall.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_hallMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn_hallMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btn_hallMouseExited(evt);
+            }
+        });
+
+        jLabel29.setBackground(new java.awt.Color(102, 102, 102));
+        jLabel29.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_double_right_35px_1.png"))); // NOI18N
+        jLabel29.setText("GENERATE CLASSES  ");
+        jLabel29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel29.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel29.setName("next"); // NOI18N
+
+        javax.swing.GroupLayout btn_hallLayout = new javax.swing.GroupLayout(btn_hall);
+        btn_hall.setLayout(btn_hallLayout);
+        btn_hallLayout.setHorizontalGroup(
+            btn_hallLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_hallLayout.createSequentialGroup()
+                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 52, Short.MAX_VALUE))
+        );
+        btn_hallLayout.setVerticalGroup(
+            btn_hallLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btn_hallLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        Structure_btnLay2.add(btn_hall, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 450, 220, 80));
+
+        btn_structuretype.setBackground(new java.awt.Color(75, 89, 149));
+        btn_structuretype.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_structuretypeMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn_structuretypeMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btn_structuretypeMouseExited(evt);
+            }
+        });
+
+        floors.setFont(new java.awt.Font("Trebuchet MS", 0, 13)); // NOI18N
+        floors.setForeground(new java.awt.Color(255, 255, 255));
+        floors.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        floors.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_octahedron_30px.png"))); // NOI18N
+        floors.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel60.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel60.setText("GENERATE STRUCTURES ");
+
+        javax.swing.GroupLayout btn_structuretypeLayout = new javax.swing.GroupLayout(btn_structuretype);
+        btn_structuretype.setLayout(btn_structuretypeLayout);
+        btn_structuretypeLayout.setHorizontalGroup(
+            btn_structuretypeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_structuretypeLayout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addComponent(floors, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(52, Short.MAX_VALUE))
+            .addGroup(btn_structuretypeLayout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(jLabel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        btn_structuretypeLayout.setVerticalGroup(
+            btn_structuretypeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_structuretypeLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(floors, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel60, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30))
+        );
+
+        Structure_btnLay2.add(btn_structuretype, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 210, 80));
+
+        btn_hall1.setBackground(new java.awt.Color(75, 89, 149));
+        btn_hall1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_hall1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn_hall1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btn_hall1MouseExited(evt);
+            }
+        });
+
+        halls1.setFont(new java.awt.Font("Trebuchet MS", 0, 13)); // NOI18N
+        halls1.setForeground(new java.awt.Color(255, 255, 255));
+        halls1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        halls1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_verified_account_30px.png"))); // NOI18N
+        halls1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel64.setFont(new java.awt.Font("Tw Cen MT", 0, 14)); // NOI18N
+        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel64.setText("GENERATE HALL");
+
+        javax.swing.GroupLayout btn_hall1Layout = new javax.swing.GroupLayout(btn_hall1);
+        btn_hall1.setLayout(btn_hall1Layout);
+        btn_hall1Layout.setHorizontalGroup(
+            btn_hall1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_hall1Layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addGroup(btn_hall1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(btn_hall1Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(halls1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(32, Short.MAX_VALUE))
+        );
+        btn_hall1Layout.setVerticalGroup(
+            btn_hall1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_hall1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(halls1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(17, Short.MAX_VALUE))
+        );
+
+        Structure_btnLay2.add(btn_hall1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 210, 100));
+
+        Button_holder.add(Structure_btnLay2, "card3");
+
+        reports.setBackground(new java.awt.Color(0, 57, 126));
+        reports.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel80.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        jLabel80.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
+        jLabel80.setText("  Expenses");
+        jLabel80.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        reports.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 160, 50));
+
+        jLabel81.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        jLabel81.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
+        jLabel81.setText("  Occupancy");
+        jLabel81.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        reports.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 160, 50));
+
+        jLabel82.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        jLabel82.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
+        jLabel82.setText("  Guests");
+        jLabel82.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        reports.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 160, 50));
+
+        jLabel83.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        jLabel83.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
+        jLabel83.setText("  Financial");
+        jLabel83.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        reports.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 160, 50));
+
+        jLabel84.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_round_15px_1.png"))); // NOI18N
+        jLabel84.setText("  Coupon");
+        jLabel84.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        reports.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 160, 50));
+
+        Button_holder.add(reports, "card5");
+
+        Side_Panel.add(Button_holder, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 210, 590));
+
+        jPanel28.setBackground(new java.awt.Color(0, 57, 126));
         jPanel28.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel28MouseClicked(evt);
@@ -1343,31 +1333,31 @@ public class Admin_Home extends javax.swing.JFrame {
         });
         jPanel28.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lb_user.setFont(new java.awt.Font("Times New Roman", 0, 13)); // NOI18N
-        lb_user.setForeground(new java.awt.Color(255, 255, 255));
-        lb_user.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_ok_12px.png"))); // NOI18N
-        lb_user.setText("name");
-        jPanel28.add(lb_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 120, 20));
-
-        img_usera.setBackground(new java.awt.Color(121, 119, 119));
-        img_usera.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
         jLabel38.setFont(new java.awt.Font("Tw Cen MT", 0, 18)); // NOI18N
         jLabel38.setForeground(new java.awt.Color(255, 255, 255));
         jLabel38.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icon.png"))); // NOI18N
-        img_usera.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 90));
+        jPanel28.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, 140, 120));
 
         user_img.setFont(new java.awt.Font("Times New Roman", 1, 13)); // NOI18N
         user_img.setForeground(new java.awt.Color(153, 153, 153));
         user_img.setPreferredSize(new java.awt.Dimension(50, 60));
-        img_usera.add(user_img, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 70, 70));
+        jPanel28.add(user_img, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 70, 70));
 
-        jPanel28.add(img_usera, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 110, 100));
+        img_usera.setBackground(new java.awt.Color(0, 57, 126));
+        img_usera.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Side_Panel.add(jPanel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 100));
+        lb_user.setFont(new java.awt.Font("Times New Roman", 0, 13)); // NOI18N
+        lb_user.setForeground(new java.awt.Color(255, 255, 255));
+        lb_user.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_ok_12px.png"))); // NOI18N
+        lb_user.setText("   name");
+        img_usera.add(lb_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 120, 20));
 
-        Main_container.add(Side_Panel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 210, 710));
+        jPanel28.add(img_usera, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, 140, 140));
+
+        Side_Panel.add(jPanel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 210, 140));
+
+        Main_container.add(Side_Panel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 210, 720));
 
         Class_config_holder.setBackground(new java.awt.Color(255, 255, 255));
         Class_config_holder.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -1375,75 +1365,6 @@ public class Admin_Home extends javax.swing.JFrame {
 
         home_page.setBackground(new java.awt.Color(255, 255, 255));
         home_page.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel16.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel16.setText("Go To My Settings");
-        home_page.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 110, 30));
-
-        jLabel17.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel17.setText("School Details and Database");
-        home_page.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, 190, 30));
-
-        jLabel22.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel22.setText("Go To My Admin");
-        home_page.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 30, 110, 30));
-
-        jLabel24.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel24.setText("Student Registration, Payments");
-        home_page.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 60, 180, 30));
-
-        jLabel15.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel15.setText("Work Force");
-        home_page.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 20, 110, 30));
-
-        jLabel14.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel14.setText("Create  Departments, Employees");
-        home_page.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 50, 190, 30));
-
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_registration_50px.png"))); // NOI18N
-        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel8MouseClicked(evt);
-            }
-        });
-        home_page.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 20, 250, 80));
-
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_settings_50px.png"))); // NOI18N
-        jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel6MouseClicked(evt);
-            }
-        });
-        home_page.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 260, 80));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/shortcut3.png"))); // NOI18N
-        jLabel5.setText("jLabel5");
-        home_page.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 10, 330, 100));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/shortcut2.png"))); // NOI18N
-        jLabel3.setText("jLabel3");
-        home_page.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 10, 340, 100));
-
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unit_50px.png"))); // NOI18N
-        jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel7MouseClicked(evt);
-            }
-        });
-        home_page.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 20, 250, 70));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/shortcut1.png"))); // NOI18N
-        jLabel2.setText("jLabel2");
-        home_page.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 330, 90));
 
         jPanel4.setLayout(new java.awt.CardLayout());
 
@@ -1468,7 +1389,7 @@ public class Admin_Home extends javax.swing.JFrame {
                 jLabel18MouseClicked(evt);
             }
         });
-        home_cover.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, 130, 130));
+        home_cover.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, 130, 130));
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_pass_fail_90px.png"))); // NOI18N
         jLabel25.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -1577,7 +1498,20 @@ public class Admin_Home extends javax.swing.JFrame {
 
         backgroud_img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         backgroud_img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/home.png"))); // NOI18N
-        home_cover.add(backgroud_img, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, -100, 1130, 810));
+        home_cover.add(backgroud_img, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, -110, 1130, 810));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/shortcut3.png"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        home_cover.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 330, 100));
+
+        btnShow.setBackground(new java.awt.Color(102, 102, 102));
+        btnShow.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnShowMouseClicked(evt);
+            }
+        });
+        btnShow.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        home_cover.add(btnShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 180, 60));
 
         jPanel4.add(home_cover, "card3");
 
@@ -1659,6 +1593,156 @@ public class Admin_Home extends javax.swing.JFrame {
         jPanel4.add(profile, "card2");
 
         home_page.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 1150, 600));
+
+        dash.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        dash.setForeground(new java.awt.Color(255, 255, 255));
+        dash.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        dash.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_circled_menu_40px.png"))); // NOI18N
+        dash.setText("        Dashboard");
+        home_page.add(dash, new org.netbeans.lib.awtextra.AbsoluteConstraints(-100, 100, 190, 50));
+
+        jPanel6.setBackground(new java.awt.Color(0, 57, 126));
+
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_settings_50px.png"))); // NOI18N
+        jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel6MouseClicked(evt);
+            }
+        });
+
+        jLabel16.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel16.setText("Go To My Settings");
+
+        jLabel17.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel17.setText("School Details and Database");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(55, Short.MAX_VALUE)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(67, 67, 67))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        home_page.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, 0, 400, -1));
+
+        jPanel7.setBackground(new java.awt.Color(0, 57, 126));
+
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_registration_50px.png"))); // NOI18N
+        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel8MouseClicked(evt);
+            }
+        });
+
+        jLabel22.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel22.setText("Go To My Admin");
+
+        jLabel24.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel24.setText("Student Registration, Payments");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(29, 29, 29)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(72, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(14, Short.MAX_VALUE))
+        );
+
+        home_page.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 0, 370, -1));
+
+        jPanel8.setBackground(new java.awt.Color(0, 57, 126));
+
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hotel/management/images/icons8_unit_50px.png"))); // NOI18N
+        jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
+            }
+        });
+
+        jLabel14.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel14.setText("Create  Departments, Employees");
+
+        jLabel15.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel15.setText("Work Force");
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(16, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(24, 24, 24))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+        );
+
+        home_page.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 0, 330, -1));
 
         Class_config_holder.add(home_page, "card2");
 
@@ -1770,7 +1854,6 @@ public class Admin_Home extends javax.swing.JFrame {
             }
         ));
         Structure_Table_display.setGridColor(new java.awt.Color(255, 255, 255));
-        Structure_Table_display.setIntercellSpacing(new java.awt.Dimension(20, 5));
         Structure_Table_display.setRowHeight(30);
         Structure_Table_display.setTableHeader(null);
         Structure_Table_display.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2188,7 +2271,6 @@ public class Admin_Home extends javax.swing.JFrame {
             }
         ));
         Rooms_Table_display.setGridColor(new java.awt.Color(255, 255, 255));
-        Rooms_Table_display.setIntercellSpacing(new java.awt.Dimension(20, 5));
         Rooms_Table_display.setRowHeight(30);
         Rooms_Table_display.setTableHeader(null);
         Rooms_Table_display.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2305,7 +2387,6 @@ public class Admin_Home extends javax.swing.JFrame {
             }
         ));
         halls_Table_display.setGridColor(new java.awt.Color(255, 255, 255));
-        halls_Table_display.setIntercellSpacing(new java.awt.Dimension(20, 5));
         halls_Table_display.setRowHeight(30);
         halls_Table_display.setTableHeader(null);
         jScrollPane22.setViewportView(halls_Table_display);
@@ -2720,11 +2801,11 @@ public class Admin_Home extends javax.swing.JFrame {
     }//GEN-LAST:event_StructureMouseClicked
 
     private void StructureMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_StructureMouseEntered
-        Structure.setBackground(new Color(33, 173, 178));
+        Structure.setBackground(new Color(0,57,126));
     }//GEN-LAST:event_StructureMouseEntered
 
     private void StructureMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_StructureMouseExited
-        Structure.setBackground(new Color(121,119,119));
+        Structure.setBackground(new Color(75,89,149));
     }//GEN-LAST:event_StructureMouseExited
 
     private void HRMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HRMouseClicked
@@ -2767,12 +2848,12 @@ public class Admin_Home extends javax.swing.JFrame {
     }//GEN-LAST:event_HRMouseClicked
 
     private void HRMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HRMouseEntered
-        HR.setBackground(new Color(33, 173, 178));
+        HR.setBackground(new Color(0,57,126));
 
     }//GEN-LAST:event_HRMouseEntered
 
     private void HRMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HRMouseExited
-        HR.setBackground(new Color(121,119,119));
+        HR.setBackground(new Color(75,89,149));
 
     }//GEN-LAST:event_HRMouseExited
 
@@ -2840,12 +2921,12 @@ public class Admin_Home extends javax.swing.JFrame {
     }//GEN-LAST:event_admin_btnMouseClicked
 
     private void admin_btnMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_admin_btnMouseEntered
-        admin_btn.setBackground(new Color(33, 173, 178));
+        admin_btn.setBackground(new Color(0,57,126));
 
     }//GEN-LAST:event_admin_btnMouseEntered
 
     private void admin_btnMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_admin_btnMouseExited
-        admin_btn.setBackground(new Color(121,119,119));
+        admin_btn.setBackground(new Color(75,89,149));
     }//GEN-LAST:event_admin_btnMouseExited
 
     private void expensesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_expensesMouseClicked
@@ -2896,39 +2977,39 @@ public class Admin_Home extends javax.swing.JFrame {
     }//GEN-LAST:event_expensesMouseClicked
 
     private void expensesMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_expensesMouseEntered
-        expenses.setBackground(new Color(33, 173, 178));
+        expenses.setBackground(new Color(0,57,126));
 
     }//GEN-LAST:event_expensesMouseEntered
 
     private void expensesMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_expensesMouseExited
-        expenses.setBackground(new Color(121,119,119));
+        expenses.setBackground(new Color(75,89,149));
 
     }//GEN-LAST:event_expensesMouseExited
 
     private void btn_roomsMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_roomsMouseEntered
-        btn_rooms.setBackground(new Color(33, 173, 178));
+        btn_rooms.setBackground(new Color(0,57,126));
     }//GEN-LAST:event_btn_roomsMouseEntered
 
     private void btn_hallMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_hallMouseEntered
-        btn_hall.setBackground(new Color(33, 173, 178));
+        btn_hall.setBackground(new Color(0,57,126));
     }//GEN-LAST:event_btn_hallMouseEntered
 
     private void btn_structuretypeMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_structuretypeMouseEntered
-        btn_structuretype.setBackground(new Color(33, 173, 178));
+        btn_structuretype.setBackground(new Color(0,57,126));
     }//GEN-LAST:event_btn_structuretypeMouseEntered
 
     private void btn_roomsMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_roomsMouseExited
-        btn_rooms.setBackground(new Color(121,119,119));
+        btn_rooms.setBackground(new Color(75,89,149));
 
     }//GEN-LAST:event_btn_roomsMouseExited
 
     private void btn_hallMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_hallMouseExited
-        btn_hall.setBackground(new Color(121,119,119));
+        btn_hall.setBackground(new Color(75,89,149));
 
     }//GEN-LAST:event_btn_hallMouseExited
 
     private void btn_structuretypeMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_structuretypeMouseExited
-        btn_structuretype.setBackground(new Color(121,119,119));
+        btn_structuretype.setBackground(new Color(75,89,149));
     }//GEN-LAST:event_btn_structuretypeMouseExited
 
     private void btn_roomsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_roomsMouseClicked
@@ -3305,12 +3386,12 @@ public class Admin_Home extends javax.swing.JFrame {
     
     
     private void AdminstrativeMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_AdminstrativeMouseEntered
-        Adminstrative.setBackground(new Color(33, 173, 178));
+        Adminstrative.setBackground(new Color(0,57,126));
     }//GEN-LAST:event_AdminstrativeMouseEntered
 
     private void AdminstrativeMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_AdminstrativeMouseExited
 
-        Adminstrative.setBackground(new Color(121,119,119));
+        Adminstrative.setBackground(new Color(75,89,149));
 
     }//GEN-LAST:event_AdminstrativeMouseExited
 
@@ -3667,17 +3748,6 @@ public class Admin_Home extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_search_roomsKeyTyped
-
-    private void jLabel1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseDragged
-         int x=evt.getXOnScreen();
-         int y=evt.getYOnScreen();
-         this.setLocation(x-xx, y-yy);
-    }//GEN-LAST:event_jLabel1MouseDragged
-
-    private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MousePressed
-          xx = evt.getX();
-          yy = evt.getY();
-    }//GEN-LAST:event_jLabel1MousePressed
 
     private void btn_hall1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_hall1MouseClicked
         // TODO add your handling code here:
@@ -4075,7 +4145,6 @@ public class Admin_Home extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JCheckBox jCheckBox8;
     private javax.swing.JComboBox jComboBox1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel101;
     private javax.swing.JLabel jLabel105;
@@ -4112,7 +4181,6 @@ public class Admin_Home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel197;
     private javax.swing.JLabel jLabel198;
     private javax.swing.JLabel jLabel199;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel201;
     private javax.swing.JLabel jLabel202;
@@ -4130,7 +4198,6 @@ public class Admin_Home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
@@ -4214,6 +4281,10 @@ public class Admin_Home extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane20;
